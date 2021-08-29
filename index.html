@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDw832-9-UwTz0p0NS0h24EctcdGGPrG48",
+        authDomain: "even-cooler-quiz-game-2.firebaseapp.com",
+        databaseURL: "https://even-cooler-quiz-game-2-default-rtdb.firebaseio.com",
+        projectId: "even-cooler-quiz-game-2",
+        storageBucket: "even-cooler-quiz-game-2.appspot.com",
+        messagingSenderId: "1067784155586",
+        appId: "1:1067784155586:web:498d79e31c9f10737d265b"
+      };
+
+
+      // // Initialize Firebase
+      
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Proc-37-template-main/js/Contestant.js"></script>
+    <script src="Proc-37-template-main/js/Question.js"></script>
+    <script src="Proc-37-template-main/js/Quiz.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
